@@ -22,7 +22,7 @@ class Predictor(BasePredictor):
         prompt: str = Input(description="Instruction for model"),
         system_prompt: str = Input(
             description="System prompt for the model, helps guides model behaviour.",
-            default=SYSTEM_PROMPT,
+            default=SYSTEM_PROMPT_AR,
         ),
         prompt_template: str = Input(
             description="Template to pass to model. Override if you are providing multi-turn instructions.",
