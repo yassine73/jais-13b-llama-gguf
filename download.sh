@@ -1,0 +1,1 @@
+huggingface-cli download Solshine/jais-adapted-13b-chat-Q4_K_M-GGUF jais-adapted-13b-chat-q4_k_m.gguf --local-dir . --local-dir-use-symlinks False
