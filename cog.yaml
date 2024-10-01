@@ -10,4 +10,5 @@ build:
   run:
     - pip install --upgrade pip
     - CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python==0.2.77 --no-cache-dir
+    - pip install huggingface-hub
 predict: "predict.py:Predictor"
